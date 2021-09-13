@@ -22,7 +22,7 @@ export default async function handler(req, res) {
         ],
         mode: 'payment',
         success_url: "https://puff2you.com/en/shipping",
-        cancel_url: "https://puff2you.com/en/elf-bar-600/blueberry",
+        cancel_url: "https://puff2you.com/en/elf-bar-600/strawberry-ice-cream",
       });
 
       res.redirect(303, session.url);
