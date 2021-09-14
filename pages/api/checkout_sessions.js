@@ -21,7 +21,7 @@ export default async function handler(req, res) {
           'card'
         ],
         mode: 'payment',
-        success_url: "https://puff2you.com/en/shipping",
+        success_url: "https://puff2you.com/en/thank-you",
         cancel_url: "https://puff2you.com/en/elf-bar-600/strawberry-ice-cream",
       });
 
